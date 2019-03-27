@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestConnectMeeting</string>
+    <string name="sharing_option_screen_label">Share Screen</string>
+    <string name="sharing_option_gallery_label">Share Picture from Gallery</string>
+    <string name="sharing_option_browser_label">Share Picture from Browser</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

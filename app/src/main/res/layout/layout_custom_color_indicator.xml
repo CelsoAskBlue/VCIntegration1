@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge  xmlns:android="http://schemas.android.com/apk/res/android"
+              >
+    <ImageView
+        android:id="@+id/color_indicator_ring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:duplicateParentState="true"
+        android:src="@drawable/color_picker_ring_selector"/>
+    <ImageView
+        android:id="@+id/color_indicator_inner_circle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:src="@drawable/color_picker_inner_shape"
+       />
+
+</merge>
