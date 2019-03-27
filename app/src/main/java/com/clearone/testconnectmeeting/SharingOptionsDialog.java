@@ -27,6 +27,7 @@ public class SharingOptionsDialog extends DialogFragment implements View.OnClick
     Button _shareScreenButton;
     Button _shareGalleryButton;
 
+
     @Override
     public void onAttach(Context context)
     {
