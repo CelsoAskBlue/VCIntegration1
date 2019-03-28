@@ -4,12 +4,12 @@
               android:layout_width="match_parent"
               android:minWidth="600dp"
               android:layout_height="match_parent">
-    <Button
+ <!--   <Button
         android:id="@+id/fragment_sharing_sreen"
         android:layout_width="match_parent"
         android:text="@string/sharing_option_screen_label"
         android:background="@android:color/transparent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"/>-->
     <Button
         android:id="@+id/fragment_sharing_gallery"
         android:layout_width="match_parent"
@@ -17,10 +17,10 @@
         android:background="@android:color/transparent"
         android:layout_height="wrap_content"/>
 
-    <Button
+   <!-- <Button
         android:id="@+id/fragment_sharing_browser"
         android:layout_width="match_parent"
         android:text="@string/sharing_option_browser_label"
         android:background="@android:color/transparent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"/>-->
 </LinearLayout>

@@ -24,7 +24,7 @@ public class SharingOptionsDialog extends DialogFragment implements View.OnClick
     }
 
     private SharingOptionsDialogListener _listener;
-    Button _shareScreenButton;
+//    Button _shareScreenButton;
     Button _shareGalleryButton;
 
 
@@ -66,16 +66,16 @@ public class SharingOptionsDialog extends DialogFragment implements View.OnClick
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        _shareScreenButton = (Button)view.findViewById(R.id.fragment_sharing_sreen);
+//        _shareScreenButton = (Button)view.findViewById(R.id.fragment_sharing_sreen);
         _shareGalleryButton = (Button)view.findViewById(R.id.fragment_sharing_gallery);
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            _shareScreenButton.setOnClickListener(this);
-            _shareScreenButton.setEnabled(true);
+//            _shareScreenButton.setOnClickListener(this);
+//            _shareScreenButton.setEnabled(true);
         }
         else
         {
-            _shareScreenButton.setEnabled(false);
+//            _shareScreenButton.setEnabled(false);
         }
         _shareGalleryButton.setOnClickListener(this);
 
@@ -85,11 +85,12 @@ public class SharingOptionsDialog extends DialogFragment implements View.OnClick
     public void onClick(View v)
     {
         SptCallFragment.eSharingType selected = SptCallFragment.eSharingType.eSharingTypeUnknown;
-        if(v == _shareScreenButton)
+        /*if(v == _shareScreenButton)
         {
             selected = SptCallFragment.eSharingType.eSharingTypeScreen;
         }
-        else if(v == _shareGalleryButton)
+        else*/
+        if(v == _shareGalleryButton)
         {
             selected = SptCallFragment.eSharingType.eSharingTypeGallery;
         }
